@@ -69,7 +69,7 @@ export default function Home() {
           <h2 className="text-xl font-semibold mb-4 dark:text-white">What is a Dopamine Detox?</h2>
           <p className="mb-4 dark:text-gray-200">
             A dopamine detox is a period where you intentionally reduce activities that cause dopamine spikes 
-            (like social media, video games, or processed foods) to help reset your brain's reward system.
+            (like social media, video games, or processed foods) to help reset your brain&apos;s reward system.
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             <strong>Disclaimer:</strong> This is a self-experiment and not a substitute for professional medical advice.
@@ -165,7 +165,7 @@ export default function Home() {
                   disabled={isLoading}
                   className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 disabled:bg-indigo-400"
                 >
-                  {isLoading ? 'Generating Plan...' : 'Generate Detox Plan'}
+                  {isLoading ? "Generating Plan..." : "Generate Detox Plan"}
                 </button>
               </div>
               
