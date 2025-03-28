@@ -1,24 +1,49 @@
+# Dopamine Detox Planner
+
+A web application that generates personalized dopamine detox plans using OpenAI and converts them to downloadable PDFs.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Features
 
-First, run the development server:
+- Create personalized dopamine detox plans based on your inputs
+- AI-generated content using OpenAI's GPT models
+- Download your plan as a PDF
+- Light and dark mode support (follows system theme)
+- Responsive design for all devices
+
+## Setup
+
+### Prerequisites
+
+- Node.js 18.x or later
+- OpenAI API key (for AI-generated content)
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+> **Note:** If you don't provide an OpenAI API key, the application will fall back to a pre-defined template for the detox plan.
+
+### Installation
+
+```bash
+npm install
+```
+
+### Running the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a custom font family.
 
 ## Learn More
 
